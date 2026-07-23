@@ -318,7 +318,7 @@
       "contentType": "image/png"
     },
     {
-      "url": "https://html5.api.gamedistribution.com/main.min.js",
+      "url": "data:text/javascript,void 0",
       "file": "_external/html5.api.gamedistribution.com/main.min.js",
       "bytes": 648851,
       "status": 200,
@@ -818,7 +818,7 @@
       "https://um.simpli.fi/pubmatic?https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZqcz0xJmNvZGU9ODA2JnRsPTUxODQwMA==&piggybackCookie=uid:$UID&gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid= :: net::ERR_CONNECTION_REFUSED"
     ],
     "remoteRequests": [
-      "http://html5.api.gamedistribution.com/main.min.js",
+      "data:text/javascript,void 0",
       "https://msgrt.gamedistribution.com/collect?tp=com.gdsdk.gdfw.loading&ar=W3siZ21pZCI6Ijc5MDI3NWNmYzVjOTRmMWRhMTFkMGFhYTI4NTk5NDE1IiwidGRtbiI6IjEyNy4wLjAuMTo2NDAwNiIsImRvbW4iOiIxMjcuMC4wLjE6NjQwMDYiLCJyZnJyIjoiaHR0cDovLzEyNy4wLjAuMTo2NDAwNi93aGVlbGllLWJpa2UvaW5kZXguaHRtbCIsImx0aHIiOjE4LCJkcHRoIjowLCJ2ZXJzIjoiMS40My41OCIsInRyYWMiOmZhbHNlLCJ3aGxiIjpmYWxzZSwicGxhdCI6IiIsInRwY3QiOjEsImFyZ3MiOnsibWVzc2FnZSI6ImxvYWRpbmcifSwidHRsZSI6IldoZWVsaWUgQmlrZSIsInNpemUiOiIxMjgwIHggNzA0IiwiYnJubSI6IkVkZ2UiLCJicm1qIjoiMTUwIiwib3NubSI6IldpbmRvd3MiLCJvc3ZyIjoiMTAiLCJieWxkIjpmYWxzZSwiaW1ndSI6ZmFsc2UsImllZ3UiOmZhbHNlLCJpdGd1IjpmYWxzZSwiY21wZSI6ZmFsc2UsImhvc3QiOiIxMjcuMC4wLjEifV0%3D&ts=1784719224236",
       "https://game.api.gamedistribution.com/game/v4/get/790275cfc5c94f1da11d0aaa28599415/?domain=127.0.0.1:64006&v=1.43.58&engn=Windows&localTime=18",
       "https://msgrt.gamedistribution.com/collect?tp=com.gdsdk.gdfw.loading&ar=W3siZ21pZCI6Ijc5MDI3NWNmYzVjOTRmMWRhMTFkMGFhYTI4NTk5NDE1IiwidGRtbiI6IjEyNy4wLjAuMTo2NDAwNiIsImRvbW4iOiIxMjcuMC4wLjE6NjQwMDYiLCJyZnJyIjoiaHR0cDovLzEyNy4wLjAuMTo2NDAwNi93aGVlbGllLWJpa2UvaW5kZXguaHRtbCIsImx0aHIiOjE4LCJkcHRoIjowLCJ2ZXJzIjoiMS40My41OCIsInRyYWMiOmZhbHNlLCJ3aGxiIjpmYWxzZSwicGxhdCI6IiIsInRwY3QiOjIsImFyZ3MiOnsibWVzc2FnZSI6ImxvYWRpbmcifSwidHRsZSI6IldoZWVsaWUgQmlrZSIsInNpemUiOiIxMjgwIHggNzA0IiwiYnJubSI6IkVkZ2UiLCJicm1qIjoiMTUwIiwib3NubSI6IldpbmRvd3MiLCJvc3ZyIjoiMTAiLCJieWxkIjpmYWxzZSwiaW1ndSI6ZmFsc2UsImllZ3UiOmZhbHNlLCJpdGd1IjpmYWxzZSwiY21wZSI6ZmFsc2UsImhvc3QiOiIxMjcuMC4wLjEifV0%3D&ts=1784719224238",
