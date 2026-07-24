@@ -3,7 +3,11 @@
 <head>
 <script data-local-runtime-shim>
 window.__gaTracker=window.__gaTracker||function(){};
-window.gdsdk=window.gdsdk||{showAd:function(){return Promise.resolve();},preloadAd:function(){return Promise.resolve();}};
+window.gdsdk=window.gdsdk||{
+showAd:function(){return Promise.resolve(true);},
+showBanner:function(){if(window.GD_OPTIONS&&typeof window.GD_OPTIONS.onEvent==="function")window.GD_OPTIONS.onEvent({name:"SDK_GAME_START"});return Promise.resolve(true);},
+preloadAd:function(){return Promise.resolve(true);}
+};
 window.GameMonetize=window.GameMonetize||{};
 </script>
     <meta charset="UTF-8" />

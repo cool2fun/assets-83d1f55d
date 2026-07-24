@@ -21201,15 +21201,9 @@ cr.plugins_.vooxe = function(runtime)
 	Acts.prototype.ShowBanner = function ()
 	{
 		if (!isSupported) return;
-		if (typeof (window["gdsdk"]["showBanner"]) === "undefined")
-		{
-			cr.logexport("Gamedistribution.com SDK is not loaded or an ad blocker is present.");
-			this.vooxe["onResumeGame"]();
-			return;
-		}
-        window["gdsdk"]["showBanner"]();
-		cr.logexport("ShowBanner");
-		this.isShowingBannerAd = true;
+		// Ads are disabled on the self-hosted build, so never leave input paused.
+		this.isShowingBannerAd = false;
+		this.vooxe["onResumeGame"]();
 	};
 	Acts.prototype.PlayLog = function ()
 	{
